@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Dynamic;
 
 namespace MentalShowerConsumer
 {
@@ -6,7 +7,8 @@ namespace MentalShowerConsumer
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ConsumerClient.Start();
+            Console.ReadLine();
         }
     }
 }
