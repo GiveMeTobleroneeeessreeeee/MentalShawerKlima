@@ -46,6 +46,6 @@ namespace ApiMentalShowerIndoor
             {
                 endpoints.MapControllers();
             });
-        }
+        } // help
     }
 }
