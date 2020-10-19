@@ -12,7 +12,8 @@ namespace MentalShowerConsumer
     public class ConsumerClient
     {
         public static void Start()
-        {
+        { 
+            
         }
         public async Task<IList<Sensor>> GetAllItemsAsync()
         {
